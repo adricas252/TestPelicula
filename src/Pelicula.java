@@ -4,14 +4,12 @@ public class Pelicula {
     private String director;
     private int duracionMinutos;
 
-    //Constructor
     public Pelicula(String titulo, String director, int duracionMinutos) {
         this.titulo = titulo;
         this.director = director;
         this.duracionMinutos = duracionMinutos;
     }
 
-    //Getters y Setters
     public String getTitulo() {
         return titulo;
     }
